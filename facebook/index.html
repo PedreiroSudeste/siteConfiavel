@@ -41,8 +41,12 @@
       height: 106px;
       margin: -28px;
   }
+  .fb_logo{
+    text-align: center;
+  }
   .wrapper-row{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -61,12 +65,13 @@
       text-align: center;
   }
 </style>
+
 <div class="container">
-  <div class="row wrapper-row">
-    <div class="col-md-7">
-      <img class="fb-image" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">
-      <p class="content">Facebook helps you connect and share with the people in your life.</p>
-    </div>
+  <div class="fb_logo">
+    <img class="fb-image" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">
+  </div>
+  <br>
+  <div class="wrapper-row">
     <div class="col-md-5">
       <div class="form-wrapper">
         <div class="form-group">
